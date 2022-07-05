@@ -1,0 +1,187 @@
+body{
+   margin: 0;
+}
+
+.icon-start, .icon-end {
+   display: inline-block;
+   overflow: hidden;
+   height: 1.5em;
+   animation: ani1 5s infinite;
+   animation-delay: .5s;
+   max-width: 0;
+}
+
+.icon-end {
+   position: absolute;
+   color: tomato;
+}
+
+.icon-middle {
+   position:
+      display: inline-block;
+   color: #cfcfcf
+}
+
+@keyframes ani1 {
+   0% {
+      max-width: 500px;
+   }
+
+   25% {
+      max-width: 0;
+   }
+
+   75% {
+      max-width: 0;
+   }
+
+   90% {
+      max-width: 500px;
+   }
+
+   100% {
+      max-width: 500px;
+   }
+}
+
+@keyframes ani2 {
+   0% {
+      max-width: 0;
+   }
+
+   25% {
+      max-width: 0;
+   }
+
+   50% {
+      max-width: 500px;
+   }
+
+   75% {
+      max-width: 0;
+   }
+
+   100% {
+      max-width: 0;
+   }
+}   
+.right-menu{
+   list-style-type: none;
+   display: flex;
+   padding: 8px 15px;
+   align-items: center;
+}
+.list-item{
+   padding: 8px 15px;
+   cursor: pointer;
+}
+.menubar{
+   display: flex;
+   justify-content: space-between;
+}
+
+.first-sec{
+   height: 82vh;
+   display: flex;
+}
+
+.frist-sec-text{
+   width: 45%;
+}
+
+.first-sec-image{
+   width: 55%;
+   background-image: url(./male/Hero_Image-removebg-preview.png), url(./shapes/Group\ 8450.png);
+   background-repeat: no-repeat, no-repeat;
+   background-position: center, center;
+   background-size: 88% 100%;
+   background-position: 80%; 40%;
+}
+
+.skip{
+   color: tomato;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head-text{
+   line-height: 60px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 50px;
+   text-align: left;
+   margin-left: 50px;
+   margin-top: 80px;
+}
+
+.frist-sec-text p{
+   margin-left: 50px;
+   font-size: 20px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+   padding: 10px 20px;
+   margin-left: 50px;
+   border-radius: 20px;
+   background-color: limegreen;
+}
+
+.middle{
+   background-color: antiquewhite;
+   display: flex;
+   margin-bottom: 0;
+}
+.text-middle h1{
+   line-height: 60px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 50px;
+   text-align: left;
+   margin-left: 50px;
+   margin-top: 80px;
+}
+.text-middle p{
+   margin-left: 50px;
+   margin-right: 20px;
+   font-size: 20px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec-last{
+   height: 600px;
+   background-color: rgb(240, 239, 234);
+   margin-top: 0;
+}
+.last-sec-header-text h1{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 50px;
+   text-align: center;
+   margin-top: 0;
+   line-height: -40px;
+}
+.last-sec-header-text p{
+   font-size: 18px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+   margin-left: 140px;
+   margin-right: 140px;
+}
+.last-sec-box{
+   display: flex;
+   justify-content: space-around;
+}
+.box-1{
+   width: 40%;
+   height: 350px;
+   box-shadow: 2px 2px 10px grey;
+   background-image: url(./food/Project\ Cover.jpg);
+   background-repeat: no-repeat;
+   background-size: 80%;
+}
+.box-2{
+   width: 40%;
+   height: 350px;
+   box-shadow: 2px 2px 10px grey;
+}
+
+.box-1 h1 p{
+   justify-content: center;
+}
+
+
